@@ -16,7 +16,6 @@ function findTheLongestWord (testString) {
             if (stringArray[i].length > greatestLength) {
                 greatestLength = stringArray[i].length;
                 longestWord = stringArray[i]
-                longestWord = longestWord.replace(',','');
             }
 
             if(stringArray[i].length === greatestLength) {
@@ -25,7 +24,7 @@ function findTheLongestWord (testString) {
                 
                 for (let i = 0; i < stringVowelArray.length; ++ i) {
                     
-                    if (stringVowelArray[i] == 'a' || stringVowelArray[i] == 'e' || stringVowelArray[i] == 'i' ||            stringVowelArray[i] == 'o' || stringVowelArray[i] == 'u') {
+                    if (stringVowelArray[i] == 'a' || stringVowelArray[i] == 'e' || stringVowelArray[i] == 'i' || stringVowelArray[i] == 'o' || stringVowelArray[i] == 'u') {
                         stringVowelCount = stringVowelCount + 1;
                     }
                 }
@@ -43,11 +42,6 @@ function findTheLongestWord (testString) {
 
             }
         }
-
-
-           
-           
-            
 
         
     
